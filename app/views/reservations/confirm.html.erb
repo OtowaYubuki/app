@@ -1,0 +1,13 @@
+<h1>予約内容確認</h1>
+<dl>
+	<dt>開始日</dt>
+	<dd><%= @reservations.startday %></dd>
+	<dt>終了日</dt>
+	<dd><%= @reservations.endday %></dd>
+	<dt>人数</dt>
+	<dd><%= @reservations.people %></dd>
+</dl>
+
+<%= form_for @reservations, method: :post, url: reservations_complete_path do |form| %>
+	<%= form.submit '予約を確定' %>
+<% end %>

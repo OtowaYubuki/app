@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  startday: 2022-07-23
+  endday: 2022-07-23
+  people: 1
+
+two:
+  startday: 2022-07-23
+  endday: 2022-07-23
+  people: 1

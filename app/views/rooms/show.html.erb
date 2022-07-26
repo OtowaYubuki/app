@@ -1,0 +1,18 @@
+<table id ="show_rooms">
+ <tr> 
+   <td><%= current_user.name %></td>
+  </tr>
+ <tr>
+   <td><%= @room.adress %></td>
+ </tr>
+ <tr>
+   <td><%= @room.name %></td>
+ </tr>
+ <tr>
+   <td>¥<%= @room.price %>/日</td>
+ </tr>
+</table>
+
+<div id ="do_reservation">
+<%= link_to "この部屋を予約する", reservations_new_path %></td>
+</div>

@@ -1,0 +1,20 @@
+<table id ="show_rooms">
+ <%= form_for @reservations, method: :post, url: reservations_confirm_path do |form| %>
+  <tr>
+   <td>開始日</td>
+   <td><%= form.text_field :startday %></td>
+  </tr>
+  <tr>
+   <td>終了日</td>
+   <td><%= form.text_field :endday %></td>
+  </tr>
+  <tr>
+   <td>人数</td>
+   <td><%= form.text_field :people %></td>
+  </tr>
+ <% end %>
+</table>
+
+<div id ="confirm_link"> 
+ <%= link_to "確認画面へ", reservations_confirm_path %>
+</div>
