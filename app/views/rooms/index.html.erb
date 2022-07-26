@@ -1,0 +1,26 @@
+<h1>登録済みルーム一覧</h1>
+<table>
+<thead>
+  <tr>
+    <th>ルーム画像</th>
+    <th>ルーム名</th>
+    <th>ルーム紹介</th>
+    <th>料金</th>
+    <th>作成日</th>
+    <th>詳細</th>
+  </tr>
+</thead>
+
+<tbody>
+  <% @rooms.each do |room| %>
+    <tr>
+      <td><%= room.name %></td>
+      <td><%= room.introduction %></td>
+      <td><%= room.price %></td>
+      <td><%= room.introduction %></td>
+      <td><%= room.created_at %></td>
+      <td><%= link_to "詳細", room_path(room.id) %></td>
+    </tr>
+  <% end %>
+</tbody>
+</table>

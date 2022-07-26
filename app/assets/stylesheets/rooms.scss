@@ -1,0 +1,29 @@
+// Place all the styles related to the rooms controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+table th {
+    background-color: #fbc25b;
+    padding: 10px 20px;
+  }
+  
+  table td {
+    background-color: #f9ecd5;
+    padding: 10px 20px;
+  }
+
+  #show_rooms{
+    position: absolute;
+    top:100px;
+    left: 100px;
+  }
+
+  #do_reservation{
+    position: absolute;
+    top:200px;
+  }
+
+  #do_reservation{
+    position: absolute;
+    top:300px;
+    left:50px;
+  }

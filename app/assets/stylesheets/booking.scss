@@ -1,0 +1,71 @@
+// Place all the styles related to the booking controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+header{
+    width: 100%;
+    height: 70px;
+    padding: 4px 30px;
+    background-color: #000000;
+    position: absolute;
+    top:0;
+    left:0;
+   }
+   footer{
+    position: absolute;
+    left:0;
+    top: 1300px;
+    width: 100%;
+    height: 180px;
+    margin-top: 64px;
+    padding-top: 90px;
+    background-color: #111;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: center;
+   }
+
+   #sign_up{
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #6C757D;
+    border-color: #6C757D;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: none;
+   }
+    #sign_in{
+       position: absolute;
+       top: 25px;
+       right: 140px;
+       border-radius: .25rem;
+       color: #fff;
+       background-color: #4A90E2;
+       border-color: #4A90E2;
+       width: 100px;
+       height: 40px;
+       font-size: 15px;
+       border: none;
+      }
+
+      #name{
+        position: absolute;
+        top:10px;
+        right:100px;
+        color: #fff;
+      }
+
+      #menu{
+        position: absolute;
+        top:10px;
+        right:20px;
+        color: #fff;  
+      }
+
+      #room_new{
+        position: absolute;
+        top:100px;
+      }
